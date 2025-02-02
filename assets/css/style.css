@@ -3729,6 +3729,13 @@ p:last-child {
   }
 
 }
+@media (min-width: 767px) {
+  .mobile-logo{
+    width: 60px;
+    height: 60px;
+  }
+
+}
 .header-nav {
   display: flex;
 }
