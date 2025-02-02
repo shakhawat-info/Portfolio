@@ -3722,7 +3722,13 @@ p:last-child {
   height: 90px;
   top: -45px
 }
+@media (max-width: 576px) {
+  .mobile-logo{
+    width: 40px;
+    height: 40px;
+  }
 
+}
 .header-nav {
   display: flex;
 }
@@ -3887,6 +3893,7 @@ p:last-child {
   .offcanvas {
     width: 400px;
   }
+
 }
 
 .offcanvas-leftside {
